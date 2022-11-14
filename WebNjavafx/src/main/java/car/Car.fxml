@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="bordPane" prefHeight="474.0" prefWidth="819.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="car.Controller">
+   <top>
+      <VBox prefHeight="104.0" prefWidth="890.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="41.0" prefWidth="902.0" text="자동차목록" textFill="#000fff">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0" style="-fx-background-color: SKYBLUE;">
+               <children>
+                  <TextField fx:id="txtSerialno" prefHeight="23.0" prefWidth="83.0" promptText="serianlno" />
+                  <TextField fx:id="txtcarnumber" promptText="carnumber" />
+                  <TextField fx:id="txtcarname" promptText="carname" />
+                  <TextField fx:id="txtcarcolor" promptText="carcolor" />
+                  <TextField fx:id="txtcarmarker" prefHeight="23.0" prefWidth="134.0" promptText="carmarker" />
+                  <TextField fx:id="txtcarprice" promptText="carprice" />
+                  <Button fx:id="btnInsert" mnemonicParsing="false" onAction="#onInsert" prefHeight="23.0" prefWidth="68.0" text="입력" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <TableView fx:id="tableView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <HBox prefHeight="23.0" prefWidth="839.0" spacing="5.0" style="-fx-background-color: SKYBLUE;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnDelete" mnemonicParsing="false" onAction="#onDelete" text="삭제" />
+            <Button fx:id="btnUpdate" mnemonicParsing="false" onAction="#onUpdate" text="수정" />
+            
+            <Button fx:id="btnSelectAll" mnemonicParsing="false" onAction="#onSelectAll" text="전체보기" />
+            <Button fx:id="btnEnd" mnemonicParsing="false" onAction="#onEnd" text="종료" />
+            <TextArea fx:id="textArea" prefHeight="35.0" prefWidth="402.0" promptText="수행할 질의를 넣어세요" />
+            <Button fx:id="btnSql" mnemonicParsing="false" onAction="#onSql" text="질의" />
+            <Button fx:id="about" mnemonicParsing="false" onAction="#aboutAction" text="도움말" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+   </bottom>
+</BorderPane>
