@@ -281,7 +281,7 @@ section {
 }
 
 .section-bg {
-  background: #18d26e;
+  background: #bababa;
 }
 
 .section-title {
@@ -557,7 +557,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
+  color:#262927;
   font-size: 28px;
   text-align: center;
   background: rgba(20, 157, 221, 0.75);
@@ -607,12 +607,12 @@ section {
 }
 
 .services .icon i {
-  color: #fff;
+  color: #262927;
   font-size: 24px;
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+  background:#262927;
 }
 
 .services .icon-box:hover .icon i {
@@ -669,7 +669,7 @@ section {
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #c3e8fa;
+  color: #262927;
   font-size: 26px;
 }
 
@@ -690,7 +690,7 @@ section {
   font-style: italic;
   margin: 0 15px 15px 15px;
   padding: 20px;
-  background: #fff;
+  background: #262927;
   position: relative;
   margin-bottom: 35px;
   border-radius: 6px;
@@ -742,7 +742,7 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: #262927;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -812,7 +812,7 @@ section {
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
-  background: #fff;
+  background: #262927;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -830,7 +830,7 @@ section {
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color:#262927;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
@@ -843,7 +843,7 @@ section {
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: #fff;
+  color:#262927;
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -852,7 +852,7 @@ section {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  background:#262927;
   text-align: center;
   padding: 15px;
 }
@@ -865,7 +865,7 @@ section {
   height: 24px;
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
-  border-top-color: #eee;
+  border-top-color:#262927;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
@@ -888,7 +888,7 @@ section {
   background: #149ddd;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: #262927;
   transition: 0.4s;
   border-radius: 4px;
 }
