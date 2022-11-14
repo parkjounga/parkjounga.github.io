@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #d2d2d2;
 }
 
 a {
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   background: #149ddd;
-  color: #fff;
+  color: #272829
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  color: #fff;
+  color:#272829
   background: #2eafec;
   transition: background 0.2s ease-in-out;
 }
