@@ -281,7 +281,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #18d26e;
 }
 
 .section-title {
@@ -362,7 +362,7 @@ section {
 .facts .count-box span {
   font-size: 48px;
   line-height: 40px;
-  display: block;
+  display:#bababa;
   font-weight: 700;
   color: #bed9e6;
   margin-left: 60px;
@@ -387,7 +387,7 @@ section {
 }
 
 .facts .count-box a:hover {
-  color: #1f5297;
+  color: #122f57;
 }
 
 /*--------------------------------------------------------------
@@ -403,10 +403,10 @@ section {
   padding: 10px 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
-  display: block;
+  display: #bababa;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #bababa;
 }
 
 .skills .progress .skill .val {
@@ -1052,14 +1052,14 @@ section {
 --------------------------------------------------------------*/
 #footer {
   padding: 15px;
-  color: #f4f6fd;
+  color: #262927;
   font-size: 14px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background:#bababa;
 }
 
 #footer .copyright {
