@@ -69,13 +69,13 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #BDBDBD;
   overflow-y: auto;
 }
 
 #header .profile img {
   margin: 15px auto;
-  display: block;
+  display: #BDBDBD;
   width: 120px;
   border: 8px solid #2c2f3f;
 }
@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   text-decoration: none;
-  color: #fff;
+  color:#BDBDBD;
 }
 
 .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
