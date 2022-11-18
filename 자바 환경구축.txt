@@ -1,0 +1,29 @@
+<JAVA 환경구축> 
+
+
+*운영체제 설치 10이상
+
+1.이클립스 설치 : JDK 1.8 이상 설치  -> 환경변수 편집 : Path, CLASSPATH, JAVA_HOME 설정 
+  ->이클립스 window preferences  에서 enc 검색후 utf-8 로 변경 
+
+2. SQL Developer 설치: SQL Developer 검색 -> Windows x64bit 다운로드 ->exe 바로가기 만든후 실행 
+   ->오라클계정생성 : Run SQL Command line 실행 -> conn as sysdba ( 최고권한자 접속 )  ->  create user (id) identified by (pwd) ;  -> ( 권한부여 ) grant dba to (id); ->commit; 
+
+3. apache-tomcat 설치 
+
+4. JAVA FX : Scene Builder  설치  ->이클립스 help Markplace -> e(fx)clipse 플러그인 설치 
+
+5. Spring : 이클립스 help Markplace ->STS 설치 
+
+6. 파이썬 : 아나콘다닷컴 에서 아나콘다설치 -> 이클립스 help Markplace -> pydev 설치 ( 설치X ->  help install New Software 에 Work with 입력 : PyDev - http://update-production-pydev.s3.amazonaws.com/pydev/updates/site.xml )
+        -> 설치 후 Show 에서  Pydev 보기 추가 
+
+7. 주피터 노트북 : 아나콘다 Prompt 에서 pip install jupyter notebook 
+
+8.Django :아나콘다 Powershell Prompt 에서 pip install django-taggit ->pip install django-taggit-templatetags2 
+                                                                                        -> pip install-widget-tweaks(템플릿에서 양식 필드 렌더링을 조정) 
+                                                                                        ->pip install Pillow (이미지분석 및 처리)->pip install pytz (시간) 
+                                                                                        ->pip list  
+        -> 관리자 생성 : 아나콘다 Powershell Prompt 에서 (django파일이 D드라이브에 있는경우) d: ->cd djano파일 -> cd 계정 -> python manage.py createsuperuser 
+     
+9. 기타 – sinvasuml, wxFormBuilder, protoNow 등설치 
